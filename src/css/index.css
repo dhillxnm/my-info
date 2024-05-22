@@ -1,0 +1,126 @@
+
+  .container {
+    margin-inline: auto;
+    width: min(100% - 30px, 1080px);
+  }
+
+
+  body {
+    font-family: Poppins, Open Sans, Arial, sans-serif;
+    scrollbar-gutter: hidden;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    gap: 4px;
+  }
+
+  input, button{
+    display: block;
+    height: 44px;
+    margin: 20px 15px 120px 0;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+  input[type=text] {
+    border: 1px solid #32313b;
+    font-size: 23px;
+    padding: 7px;
+    width: 450px;
+  }
+
+  button {
+    border: 1px solid #4171d8;
+    background-color: #4171d8;
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 97px;
+    height: 58px;
+    color: #fff;
+  }
+
+  .task-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+  }
+  .task {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 292px;
+    min-height: 86px;
+    padding: 1.05rem;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 500;
+    transition: border-color 0.3s ease;
+  }
+  
+  .task.not-completed {
+    border-left: 3.5px solid #2c63db;
+  }
+  
+  .task.completed {
+    border-left: 3.5px solid #00ffc0;
+  }
+  
+  .task-status {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 4px;
+    height: 84%;
+    border-radius: 2px;
+  }
+
+  .task-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: #aeaeae;
+    font-size: 18px;
+  }
+  
+  
+  .icons {
+    cursor: pointer;
+    gap: 12px;
+  }
+  
+  .check, .trash, .edit {
+    /* margin-left: 5px; */
+  }
+  
+  .text {
+    overflow-wrap: break-word;
+  }
+
+  .task-date {
+    /* position: absolute;
+    bottom: 10px;
+    left: 17px;
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+    font-weight: 500; */
+  }
