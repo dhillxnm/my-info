@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dhillxnm/to-do.git/static/css/main.120258e5.css",
+    "main.js": "/dhillxnm/to-do.git/static/js/main.32fdc9cd.js",
+    "index.html": "/dhillxnm/to-do.git/index.html",
+    "main.120258e5.css.map": "/dhillxnm/to-do.git/static/css/main.120258e5.css.map",
+    "main.32fdc9cd.js.map": "/dhillxnm/to-do.git/static/js/main.32fdc9cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.120258e5.css",
+    "static/js/main.32fdc9cd.js"
+  ]
+}
